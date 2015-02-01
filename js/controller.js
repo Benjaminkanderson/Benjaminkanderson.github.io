@@ -1,22 +1,28 @@
 $(function() {
 
-	// Attack the handler for the pdf copy
+	// Attach the handler for the pdf sample copy
+	$('#sample-pdf').on('click', function() {
+		window.open('https://www.dropbox.com/s/jbrrp0cekgd2yw0/GameMakerLanguageSamplePDF.pdf?dl=0');
+	});
+
+	// Attach the handler for the pdf copy
 	$('#buy-pdf').on('click', function() {
-		window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WZMV5TEV7HXGN');
+		window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8DX9AYEDYX6CY');
 	});
 
-	// Attack the handler for the early access copy
-	$('#buy-earlyaccess').on('click', function() {
-		window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YZZP7LY6XZ3S6');
-	});
-
-	// Attack the handler for the hard copy
+	// Attach the handler for the hard copy
 	$('#buy-hardcopy').on('click', function() {
-		window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RRKN7YZ2RQXW6');
+		window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8T78JS4U7DT4E');
 	});
 
-	// Attack the handler for the international hard copy
+	// Attach the handler for the international hard copy
 	$('#buy-int-hardcopy').on('click', function() {
-		window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AZ5N5SL5KXY5G');
+		window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K6D9CFXJSQVYN');
 	});
+
+	// Attach the handler for the Kickstarter Information
+	// $('#view-kickstarter').on('click', function() {
+	// 	window.open('https://www.kickstarter.com/projects/heartbeast/game-maker-language-an-in-depth-guide');
+	// });
+
 });
