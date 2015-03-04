@@ -9,16 +9,19 @@ $(function() {
 	// Attach the handler for the pdf copy
 	$('#buy-pdf').on('click', function() {
 		window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8DX9AYEDYX6CY');
+		ga('send', 'event', 'button', 'click', '$25-PDF');
 	});
 
 	// Attach the handler for the hard copy
 	$('#buy-hardcopy').on('click', function() {
 		window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8T78JS4U7DT4E');
+		ga('send', 'event', 'button', 'click', '$60-Hard-Copy');
 	});
 
 	// Attach the handler for the international hard copy
 	$('#buy-int-hardcopy').on('click', function() {
 		window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K6D9CFXJSQVYN');
+		ga('send', 'event', 'button', 'click', '$80-Int-Hard-Copy');
 	});
 
 	// Attach the handler for the Kickstarter Information
