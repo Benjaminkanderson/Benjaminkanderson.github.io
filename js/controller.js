@@ -3,6 +3,7 @@ $(function() {
 	// Attach the handler for the pdf sample copy
 	$('#sample-pdf').on('click', function() {
 		window.open('https://www.dropbox.com/s/jbrrp0cekgd2yw0/GameMakerLanguageSamplePDF.pdf?dl=0');
+		ga('send', 'event', 'button', 'click', 'Sample-PDF');
 	});
 
 	// Attach the handler for the pdf copy
