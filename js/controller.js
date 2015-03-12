@@ -1,4 +1,4 @@
-$(function() {
+/*$(function() {
 
 	// Attach the handler for the pdf sample copy
 	// $('#sample-pdf').on('click', function() {
@@ -29,4 +29,4 @@ $(function() {
 	// 	window.open('https://www.kickstarter.com/projects/heartbeast/game-maker-language-an-in-depth-guide');
 	// });
 
-});
+});*/
